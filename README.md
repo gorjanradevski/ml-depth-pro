@@ -13,13 +13,22 @@ The model in this repository is a reference implementation, which has been re-tr
 
 ## Getting Started
 
-We recommend setting up a virtual environment. Using e.g. miniconda, the `depth_pro` package can be installed via:
+We recommend setting up a virtual environment. Using e.g. miniconda, the `depth_pro` package can be installed by first creating a virtual environment:
 
 ```bash
 conda create -n depth-pro -y python=3.9
+```
+activating the environment once installed:
+```bash
 conda activate depth-pro
-
+```
+installing the dependencies:
+```bash
 pip install -e .
+```
+and finally installing `jupyterlab` in order to run the notebooks:
+```bash
+pip install jupyterlab
 ```
 
 To download pretrained checkpoints follow the code snippet below:
